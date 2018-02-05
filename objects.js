@@ -1,6 +1,7 @@
 
+var artistName = {}
+var playlist = {Nirvanna: "Lithium"};
 
-var playlist = {};
 var updatePlaylist = {playlist, artistName, songTitle};
 var removeFromPlaylist = {playlist, artistName};
 
