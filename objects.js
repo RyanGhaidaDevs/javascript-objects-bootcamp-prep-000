@@ -7,7 +7,7 @@ var removeFromPlaylist = {playlist, artistName};
 
 function updatePlaylist (playlist, artistName, songTitle){
 // add the song and artist as a key-value pair to the playlist
-playlist.artistName = 'songTitle';
+playlist[artistName] = songTitle;
 return playlist
 }
 
