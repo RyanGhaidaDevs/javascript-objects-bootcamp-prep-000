@@ -14,6 +14,6 @@ return playlist
 
 function removeFromPlaylist (playlist, artistName){
   // delete the key-value pair from the playlist and return the updated playlist
-delete playlist[artistName]; // true 
+delete playlist[artistName]; // true
 return playlist
 }
